@@ -1,3 +1,3 @@
 # monkey-lang
 
-(Interpreter Book)[https://interpreterbook.com/]
+[Interpreter Book](https://interpreterbook.com/)
