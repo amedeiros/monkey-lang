@@ -1,0 +1,32 @@
+{
+  "name": "monkey-lang",
+  "version": "1.0.0",
+  "description": "Mokey lang from the interpreter book.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "test": "jasmine",
+    "build": "babel src --out-dir lib",
+    "repl": "node lib/main.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "phantomjs-prebuilt": "^2.1.15",
+    "proxyquireify": "^3.2.1",
+    "uglify-js": "^3.1.2",
+    "watchify": "^3.9.0"
+  },
+  "keywords": [
+    "DSL",
+    "Programming",
+    "Cloud"
+  ],
+  "author": "Andrew Medeiros",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
